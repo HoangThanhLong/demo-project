@@ -4,7 +4,9 @@
 namespace App\Repository\Contract;
 
 
-interface PostRepositoryInterface
+use App\Repository\RepositoryInterface;
+
+interface PostRepositoryInterface extends RepositoryInterface
 {
 
 }
